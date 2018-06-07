@@ -1,7 +1,7 @@
 <template>
  <div class="home">
-    <img class="tu" src="../assets/5.jpg" alt="">
-    <router-link to="/shouye"><button></button></router-link>
+    <router-link to="/shouye"><img class="tuuu" src="../assets/5.jpg" alt=""></router-link>
+    <!-- <router-link to="/shouye"><button></button></router-link> -->
  </div>
 </template>
 
@@ -16,7 +16,7 @@ export default {
   position: relative;
   height: 100vh;
 }
-.tu {
+.tuuu {
   width: 100%;
   height: 100%;
   display: block;

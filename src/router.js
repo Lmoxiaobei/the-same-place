@@ -4,6 +4,8 @@ import Denglu from './components/Denglu.vue'
 import HelloWorld from './components/HelloWorld.vue'
 import Shouye from './components/Shouye.vue'
 import Foot from './components/Foot.vue'
+import Footer from './components/Footer.vue'
+import Fu from './components/Fu.vue'
 
 Vue.use(Router)
 
@@ -24,6 +26,14 @@ export default new Router({
     {
       path: '/foot',
       component: Foot
+    },
+    {
+      path: '/footer',
+      component: Footer
+    },
+    {
+      path: '/fu',
+      component: Fu
     },
   ],
   mode: 'history',

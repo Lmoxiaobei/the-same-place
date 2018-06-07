@@ -6,7 +6,7 @@
   <mt-swipe-item><img src="../assets/3.png" alt=""></mt-swipe-item>
   <mt-swipe-item><router-link to="/denglu"><img src="../assets/4.png" alt=""></router-link></mt-swipe-item>
 </mt-swipe>
-  <router-link to="/shouye"><button class="tiao">跳过</button></router-link>
+  <!-- <router-link to="/shouye"><button class="tiao">跳过</button></router-link> -->
   </div>
 </template>
 
