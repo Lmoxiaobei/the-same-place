@@ -43,7 +43,7 @@
    <div class="Fu">
     <div class="fu">
       <div class="fuw">
-      <span class="fuq">浮世绘</span>
+        <span class="fuq">浮世绘</span>
       </div>
       <div class="fur">
       <span>毛毛</span>
@@ -51,14 +51,15 @@
       </div>
     </div>
 
-    <div class="fuy">
+   <router-link to="/fuy"> 
+   <div class="fuy">
       <div class="fut"> 
-        <p class="fui">我更喜欢努力的自己</p>
+        <p class="fui">别梦阑珊，半为锦色半流年</p>
         <p class="fuo">故事的结尾并不重要,生活唯一确保我们的就是光芒"</p>
       </div>
       <img class="fuu" src="../assets/20.jpg" alt="">
     </div>
-
+  </router-link>
     <div class='fup'>
       <div>
         <span>05-25</span>
@@ -83,6 +84,10 @@ export default {}
 </script>
 
 <style scoped>
+a {
+  color: #495060;
+  cursor: pointer;
+}
 .Fu {
   margin-top: 30px;
 }
@@ -97,6 +102,7 @@ export default {}
   padding-left: 2px;
   border-left: 1px solid #000;
 }
+
 .fue img {
   width: 30px;
   height: 30px;

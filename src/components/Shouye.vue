@@ -1,13 +1,12 @@
 <template>
  <div>
    <div class="top">
-   <img class="tu" src="../assets/6.png" alt="">
-   <img class="tuq" src="../assets/7.png" alt="">
-      <div class="foot">
-   <Foot />
+      <img class="tu" src="../assets/6.png" alt="">
+      <img class="tuq" src="../assets/7.png" alt="">
+    <div class="foot">
+          <Foot />
+    </div>
    </div>
-   </div>
-
    <Footer />
  </div>
 </template>

@@ -26,7 +26,9 @@
   </div>
 </template>
 
+
 <script>
+
 import { Swipe, SwipeItem } from 'mint-ui'
 import Fu from './Fu'
 export default {

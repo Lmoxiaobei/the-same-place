@@ -15,12 +15,16 @@
     <div>
       <img src="../assets/16.png" alt="">
     </div>
+
+    
+
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Footer'
+  name: 'Footer',
+
 }
 </script>
 
@@ -28,6 +32,8 @@ export default {
 img {
   width: 70%;
   margin-left: 20%;
+  
+  
 }
 .footer {
   display: flex;

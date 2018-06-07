@@ -6,6 +6,9 @@ import Shouye from './components/Shouye.vue'
 import Foot from './components/Foot.vue'
 import Footer from './components/Footer.vue'
 import Fu from './components/Fu.vue'
+import Fuy from './components/Fuy.vue'
+
+
 
 Vue.use(Router)
 
@@ -34,6 +37,10 @@ export default new Router({
     {
       path: '/fu',
       component: Fu
+    },
+    {
+      path: '/fuy',
+      component: Fuy
     },
   ],
   mode: 'history',
