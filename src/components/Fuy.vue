@@ -2,7 +2,7 @@
   <div>
       <div class="ti">
         <img src="../assets/21.jpg" alt="">
-        <div class="fanhui"><Icon type="arrow-left-a" class="zi"></Icon></div>
+        <router-link to="/shouye"><div class="fanhui"><Icon type="arrow-left-a" class="zi"></Icon></div></router-link>
       </div>
       <div class="tiq">
         <div >
