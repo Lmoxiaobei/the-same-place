@@ -4,7 +4,7 @@
       <img class="tu" src="../assets/6.png" alt="">
       <img class="tuq" src="../assets/7.png" alt="">
     <div class="foot">
-          <Foot />
+         <Foot />
     </div>
    </div>
    <Footer />

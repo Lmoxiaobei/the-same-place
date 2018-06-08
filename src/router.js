@@ -7,6 +7,8 @@ import Foot from './components/Foot.vue'
 import Footer from './components/Footer.vue'
 import Fu from './components/Fu.vue'
 import Fuy from './components/Fuy.vue'
+import Xiaoxi from './components/Xiaoxi.vue'
+import XiaoxiZhong from './components/XiaoxiZhong.vue'
 
 
 
@@ -41,6 +43,14 @@ export default new Router({
     {
       path: '/fuy',
       component: Fuy
+    },
+    {
+      path: '/xiaoxi',
+      component: Xiaoxi
+    },
+    {
+      path: '/xiaoxizhong',
+      component: XiaoxiZhong
     },
   ],
   mode: 'history',
