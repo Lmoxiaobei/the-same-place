@@ -44,7 +44,7 @@ a {
 }
 .top {
   width: 100vw;
-  height: 92vh;
+  height: 91.5vh;
 }
 .top span {
   font-size: 16px;

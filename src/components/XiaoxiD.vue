@@ -1,5 +1,8 @@
 <template>
  <div class="zhong">
+   <div class="z">
+
+ 
       <div class="tope">
         <span class="topw">一起说:</span>
       </div>
@@ -47,8 +50,8 @@
         </div>
       </div>
       <div class="yan"></div>
-
     </div>
+</div>
 </template>
 
 <script>
@@ -57,10 +60,12 @@ export default {}
 
 <style scoped>
 .zhong {
-  width: 90%;
   height: 80vh;
-  margin: 0 auto;
   overflow-y: auto;
+}
+.z {
+  width: 90%;
+  margin: 0 auto;
 }
 .tope {
   margin-top: 10px;
