@@ -8,7 +8,10 @@ import Footer from './components/Footer.vue'
 import Fu from './components/Fu.vue'
 import Fuy from './components/Fuy.vue'
 import Xiaoxi from './components/Xiaoxi.vue'
+import XiaoxiD from './components/XiaoxiD.vue'
+import XiaoxiL from './components/XiaoxiL.vue'
 import XiaoxiZhong from './components/XiaoxiZhong.vue'
+import XiaoxiC from './components/XiaoxiC.vue'
 
 
 
@@ -46,7 +49,24 @@ export default new Router({
     },
     {
       path: '/xiaoxi',
+      redirect: '/Xiaoxi/XiaoxiD'
+      // 默认展示
+    },
+    {
+      path: '/xiaoxi/:id',
       component: Xiaoxi
+    },
+    {
+      path: '/XiaoxiC',
+      component: XiaoxiC
+    },
+    {
+      path: '/xiaoxi/xiaoxid',
+      component: XiaoxiD
+    },
+    {
+      path: '/xiaoxi/xiaoxil',
+      component: XiaoxiL
     },
     {
       path: '/xiaoxizhong',

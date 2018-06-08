@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="zero">
       <div class="ti">
         <img src="../assets/21.jpg" alt="">
         <router-link to="/shouye"><div class="fanhui"><Icon type="arrow-left-a" class="zi"></Icon></div></router-link>
@@ -68,9 +68,13 @@ export default {
 </script>
 
 <style scoped>
+.zero {
+  width: 100vw;
+  height: 100vh;
+}
 .ti img {
   width: 100vw;
-  height: 300px;
+  height: 198px;
 }
 
 .zi {
@@ -97,7 +101,7 @@ export default {
   border-radius: 50%;
   position: absolute;
   left: 300px;
-  top: 270px;
+  top: 170px;
 }
 .tit {
   margin-top: 4px;
