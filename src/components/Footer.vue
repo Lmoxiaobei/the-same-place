@@ -16,7 +16,7 @@
       </router-link>
     </div>
     <div>
-      <router-link to="/shouye">
+      <router-link to="/huati">
       <img src="../assets/14.png" alt="">
       </router-link>
     </div>

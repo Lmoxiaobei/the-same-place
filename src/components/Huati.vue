@@ -4,13 +4,13 @@
       <div class="zero1">
         <div class="topq">
         <span v-for="t in tocList" :key="t.id">
-          <router-link :to="`/Xiaoxi/${t.id}`">
+          <router-link :to="`/Huati/${t.id}`">
               {{ t.text }}
           </router-link>
           </span>
         </div>
       </div>
-      <XiaoxiC />
+      <HuatiC />
     </div>
     <Footer />
   </div>
@@ -18,13 +18,13 @@
 
 <script>
 import Footer from './Footer.vue'
-import XiaoxiC from './XiaoxiC.vue'
-import { tocArray } from '../constants/Xiaoxi.js'
+import HuatiC from './HuatiC.vue'
+import { tocArray } from '../constants/Huati.js'
 export default {
-  name: 'Xiaoxi',
+  name: 'Huati',
   components: {
     Footer,
-    XiaoxiC
+    HuatiC
   },
   computed: {
     tocList: function() {

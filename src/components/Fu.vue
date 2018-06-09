@@ -55,7 +55,7 @@
         <p class="fui">别梦阑珊，半为锦色半流年</p>
         <p class="fuo">故事的结尾并不重要,生活唯一确保我们的就是光芒"</p>
       </div>
-      <img class="fuu" src="../assets/20.jpg" alt="">
+      <img class="fuu" src="../assets/21.jpg" alt="">
     </div>
   </router-link>
     <div class='fup'>

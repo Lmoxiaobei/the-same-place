@@ -10,9 +10,13 @@ import Fuy from './components/Fuy.vue'
 import Xiaoxi from './components/Xiaoxi.vue'
 import XiaoxiD from './components/XiaoxiD.vue'
 import XiaoxiL from './components/XiaoxiL.vue'
-import XiaoxiZhong from './components/XiaoxiZhong.vue'
 import XiaoxiC from './components/XiaoxiC.vue'
 
+
+import Huati from './components/Huati.vue'
+import HuatiT from './components/HuatiT.vue'
+import HuatiY from './components/HuatiY.vue'
+import HuatiC from './components/HuatiC.vue'
 
 
 Vue.use(Router)
@@ -47,6 +51,7 @@ export default new Router({
       path: '/fuy',
       component: Fuy
     },
+
     {
       path: '/xiaoxi',
       redirect: '/Xiaoxi/XiaoxiD'
@@ -68,9 +73,28 @@ export default new Router({
       path: '/xiaoxi/xiaoxil',
       component: XiaoxiL
     },
+
+
     {
-      path: '/xiaoxizhong',
-      component: XiaoxiZhong
+      path: '/huati',
+      redirect: '/Huati/HuatiT'
+      // 默认展示
+    },
+    {
+      path: '/huati/:id',
+      component: Huati
+    },
+    {
+      path: '/HuatiC',
+      component: HuatiC
+    },
+    {
+      path: '/huati/huatit',
+      component: HuatiT
+    },
+    {
+      path: '/huati/huatiy',
+      component: HuatiY
     },
   ],
   mode: 'history',
