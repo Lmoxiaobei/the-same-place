@@ -18,6 +18,9 @@ import HuatiT from './components/HuatiT.vue'
 import HuatiY from './components/HuatiY.vue'
 import HuatiC from './components/HuatiC.vue'
 
+import Buxiang from './components/Buxiang.vue'
+
+
 
 Vue.use(Router)
 
@@ -95,6 +98,10 @@ export default new Router({
     {
       path: '/huati/huatiy',
       component: HuatiY
+    },
+    {
+      path: '/Huati/huati/huatiY/buxiang',
+      component: Buxiang
     },
   ],
   mode: 'history',

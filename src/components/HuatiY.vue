@@ -5,6 +5,7 @@
     </div>
     <div >
 
+    <router-link to='huati/huatiY/buxiang'>
     <div class="z">
       <div class="demo-avatar">
           <Avatar src="https://i0.hdslb.com/bfs/archive/050b24a63e897d9d16eb9fb1587dad5a2e338c51.jpg@380w_240h_100Q_1c.webp" size='large'/>
@@ -14,6 +15,7 @@
         <p >还有 3 小时结束</p>
       </div>
     </div>
+    </router-link>
 
     <div class="z">
       <div class="demo-avatar">
@@ -127,6 +129,9 @@ export default {
 </script>
 
 <style scoped>
+a {
+  color: #495060;
+}
 .zer {
   overflow-y: auto;
   height: 80vh;
