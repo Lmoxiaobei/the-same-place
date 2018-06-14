@@ -19,6 +19,7 @@ import HuatiY from './components/HuatiY.vue'
 import HuatiC from './components/HuatiC.vue'
 
 import Buxiang from './components/Buxiang.vue'
+import Wode from './components/Wode.vue'
 
 
 
@@ -102,6 +103,10 @@ export default new Router({
     {
       path: '/Huati/huati/huatiY/buxiang',
       component: Buxiang
+    },
+    {
+      path: '/wode',
+      component: Wode
     },
   ],
   mode: 'history',
