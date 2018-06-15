@@ -21,6 +21,7 @@ import HuatiC from './components/HuatiC.vue'
 import Buxiang from './components/Buxiang.vue'
 import Wode from './components/Wode.vue'
 import WodeY from './components/WodeY.vue'
+import Huida from './components/Huida.vue'
 
 
 
@@ -112,6 +113,10 @@ export default new Router({
     {
       path: '/wodey',
       component: WodeY
+    },
+    {
+      path: '/huida',
+      component: Huida
     },
   ],
   mode: 'history',
