@@ -34,7 +34,9 @@
       <div class="zhongZ">
         <div class="yichu">
           <span>我的一处</span>
-          <Button class="bt"><Icon type="more"></Icon></Button>
+          <router-link to="/wodey">
+            <Button class="bt"><Icon type="more"></Icon></Button>
+          </router-link>
         </div>
         <div class="tu">
           <div>
@@ -245,10 +247,10 @@ export default {
 .diy {
   color: #70dbdb;
 }
-.diu{
-  color:#007fff;
+.diu {
+  color: #007fff;
 }
-.dii{
-  color:#b5a642;
+.dii {
+  color: #b5a642;
 }
 </style>
