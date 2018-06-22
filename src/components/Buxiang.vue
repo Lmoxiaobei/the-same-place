@@ -123,7 +123,7 @@ export default {
 
 <style scoped>
 a {
-  color: #495060;
+  color: #fff;
 }
 .top {
   height: 100vh;
