@@ -22,6 +22,7 @@ import Buxiang from './components/Buxiang.vue'
 import Wode from './components/Wode.vue'
 import WodeY from './components/WodeY.vue'
 import Huida from './components/Huida.vue'
+import Yinyue from './components/Yinyue.vue'
 
 
 
@@ -117,6 +118,10 @@ export default new Router({
     {
       path: '/huida',
       component: Huida
+    },
+    {
+      path: '/yinyue',
+      component: Yinyue
     },
   ],
   mode: 'history',

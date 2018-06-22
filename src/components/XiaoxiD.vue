@@ -1,8 +1,6 @@
 <template>
  <div class="zhong">
    <div class="z">
-
- 
       <div class="tope">
         <span class="topw">一起说:</span>
       </div>
